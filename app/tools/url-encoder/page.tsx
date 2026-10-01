@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "URL Encoder/Decoder",
   description: "Safely encode or decode strings to be used in URLs and URIs.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/url-encoder",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/url-encoder",
   },
 };
 export default function UrlEncoderPage() {

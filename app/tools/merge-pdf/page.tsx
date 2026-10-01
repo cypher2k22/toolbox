@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Merge PDF",
   description: "Combine multiple PDF files into a single document entirely in your browser.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/merge-pdf",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/merge-pdf",
   },
 };
 export default function MergePdfPage() {

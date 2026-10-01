@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Case Converter",
   description: "Easily convert text between UPPERCASE, lowercase, camelCase, Title Case, and more.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/case-converter",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/case-converter",
   },
 };
 export default function CaseConverterPage() {

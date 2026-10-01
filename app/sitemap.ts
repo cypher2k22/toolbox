@@ -2,8 +2,7 @@ import { MetadataRoute } from 'next';
 import { tools } from '@/lib/tools';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://toolbox-utilities.com';
-
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://toolbox-pearl-omega.vercel.app';
   const toolRoutes = tools.map((tool) => ({
     url: `${baseUrl}${tool.href}`,
     lastModified: new Date(),

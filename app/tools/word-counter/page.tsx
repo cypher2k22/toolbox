@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Word Counter",
   description: "Count words, characters, sentences, and paragraphs in real-time instantly.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/word-counter",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/word-counter",
   },
 };
 export default function WordCounterPage() {

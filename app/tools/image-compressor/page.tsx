@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Image Compressor",
   description: "Reduce image file size while maintaining high quality. Completely browser-based for privacy.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/image-compressor",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/image-compressor",
   },
 };
 export default function ImageCompressorPage() {

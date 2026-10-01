@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Image Resizer",
   description: "Change dimensions and resize your images instantly in the browser without uploading.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/image-resizer",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/image-resizer",
   },
 };
 export default function ImageResizerPage() {

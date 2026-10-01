@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Split PDF",
   description: "Extract pages from your PDF or split it into multiple smaller documents securely.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/split-pdf",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/split-pdf",
   },
 };
 export default function SplitPdfPage() {

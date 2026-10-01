@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Image to PDF Converter",
   description: "Combine and convert multiple images into a single PDF document locally.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/image-to-pdf",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/image-to-pdf",
   },
 };
 export default function ImageToPdfPage() {

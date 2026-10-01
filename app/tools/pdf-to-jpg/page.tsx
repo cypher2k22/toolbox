@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "PDF to JPG Converter",
   description: "Convert PDF document pages into high-quality JPG image files securely.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/pdf-to-jpg",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/pdf-to-jpg",
   },
 };
 export default function PdfToJpgPage() {

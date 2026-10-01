@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://toolbox-utilities.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://toolbox-pearl-omega.vercel.app'),
   title: {
     default: "ToolBox - Free Online Utilities & Developer Tools",
     template: "%s | ToolBox",

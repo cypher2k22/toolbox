@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Base64 Encoder/Decoder",
   description: "Encode text to Base64 format or decode Base64 strings back to regular text.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/base64",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/base64",
   },
 };
 export default function Base64EncoderPage() {

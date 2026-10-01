@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "JPG to PNG Converter",
   description: "Convert JPG or JPEG images to PNG format securely and instantly.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/jpg-to-png",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/jpg-to-png",
   },
 };
 export default function JpgToPngPage() {

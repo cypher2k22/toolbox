@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Remove Duplicate Lines",
   description: "Clean up your lists by instantly removing duplicate entries and lines.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/remove-duplicates",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/remove-duplicates",
   },
 };
 export default function RemoveDuplicatesPage() {

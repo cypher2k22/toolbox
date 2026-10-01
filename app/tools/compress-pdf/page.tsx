@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Compress PDF",
   description: "Reduce the file size of your PDF documents instantly without losing quality.",
   alternates: {
-    canonical: "https://toolbox-utilities.com/tools/compress-pdf",
+    canonical: "https://toolbox-pearl-omega.vercel.app/tools/compress-pdf",
   },
 };
 export default function CompressPdfPage() {
