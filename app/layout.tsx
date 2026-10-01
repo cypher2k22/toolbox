@@ -19,29 +19,52 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://toolbox-pearl-omega.vercel.app'),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_APP_URL ||
+    "https://toolbox-pearl-omega.vercel.app"
+  ),
+
+  verification: {
+    google: "8Mji-x9IK6h_dkKueaRN6hEQ5nlS34wdSzJ6rgUQTgg",
+  },
+
   title: {
     default: "ToolBox - Free Online Utilities & Developer Tools",
     template: "%s | ToolBox",
   },
-  description: "A premium collection of free online tools for PDFs, images, text, and developers. Process files securely in your browser without registration.",
-  keywords: ["online tools", "free utilities", "pdf tools", "image compressor", "text tools", "developer tools"],
+
+  description:
+    "A premium collection of free online tools for PDFs, images, text, and developers. Process files securely in your browser without registration.",
+
+  keywords: [
+    "online tools",
+    "free utilities",
+    "pdf tools",
+    "image compressor",
+    "text tools",
+    "developer tools",
+  ],
+
   openGraph: {
     type: "website",
     locale: "en_US",
     title: "ToolBox - Free Online Utilities",
-    description: "A premium collection of free online tools. Process files securely in your browser.",
+    description:
+      "A premium collection of free online tools. Process files securely in your browser.",
     siteName: "ToolBox",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "ToolBox - Free Online Utilities",
-    description: "A premium collection of free online tools. Process files securely in your browser.",
+    description:
+      "A premium collection of free online tools. Process files securely in your browser.",
   },
+
   robots: {
     index: true,
     follow: true,
-  }
+  },
 };
 
 export default function RootLayout({
@@ -57,6 +80,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans bg-background text-foreground transition-colors duration-300">
         <JsonLd />
+
         <AuthProvider>
           <ThemeProvider>
             <Header />
